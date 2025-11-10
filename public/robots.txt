@@ -1,56 +1,41 @@
 # robots.txt for The Make Up Academy Fiji
-# Last updated: 2025-11-10
+# Generated: 2025-11-10T03:18:34.674Z
 
 # Block AI training bots
 User-agent: GPTBot
 Disallow: /
 
+# Block AI training bots
 User-agent: ChatGPT-User
 Disallow: /
 
+# Block Common Crawl bot
 User-agent: CCBot
 Disallow: /
 
+# Block AI training bots
 User-agent: anthropic-ai
 Disallow: /
 
+# Block AI training bots
 User-agent: Claude-Web
 Disallow: /
 
-User-agent: Google-Extended
-Disallow: /
-
-User-agent: Omgilibot
-Disallow: /
-
-User-agent: FacebookBot
-Disallow: /
-
-# Rules for search engine bots
-User-agent: Googlebot
-Allow: /
-Crawl-delay: 0
-
-User-agent: Bingbot
-Allow: /
-Crawl-delay: 1
-
-User-agent: Slurp
-Allow: /
-Crawl-delay: 1
-
-User-agent: DuckDuckBot
-Allow: /
-Crawl-delay: 1
-
-# General rules for all other bots
+# General rules for all bots
 User-agent: *
 Allow: /
+Allow: /public/
 Disallow: /api/
 Disallow: /admin/
 Disallow: /*.json$
 Disallow: /*.zip$
 Disallow: /node_modules/
+Crawl-delay: 1
+
+User-agent: Googlebot
+Crawl-delay: 0
+
+User-agent: Bingbot
 Crawl-delay: 1
 
 # Sitemap
