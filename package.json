@@ -6,7 +6,7 @@
     "dev": "npm run generate:robots && vite",
     "build": "npm run generate:robots && vite build",
     "preview": "vite preview",
-    "start": "serve dist -s -l 3000",
+    "start": "serve dist -s",
     "generate:robots": "node scripts/generate-robots.js",
     "predev": "npm run generate:robots",
     "prebuild": "npm run generate:robots"
