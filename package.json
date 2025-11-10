@@ -6,13 +6,15 @@
     "dev": "npm run generate:robots && vite",
     "build": "npm run generate:robots && vite build",
     "preview": "vite preview",
+    "start": "serve dist -s -l 3000",
     "generate:robots": "node scripts/generate-robots.js",
     "predev": "npm run generate:robots",
     "prebuild": "npm run generate:robots"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "serve": "^14.2.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
