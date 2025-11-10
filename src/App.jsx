@@ -6,7 +6,7 @@ import './App.css';
  */
 function App() {
   // Set launch date to 30 days from now (fixed date)
-  const LAUNCH_DATE = new Date('2025-11-20T00:00:00').getTime();
+  const LAUNCH_DATE = new Date('2025-12-20T00:00:00').getTime();
   
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
