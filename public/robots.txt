@@ -1,5 +1,5 @@
 # robots.txt for The Make Up Academy Fiji
-# Generated: 2025-11-10T03:18:34.674Z
+# Generated: 2025-11-10T03:21:42.454Z
 
 # Block AI training bots
 User-agent: GPTBot
